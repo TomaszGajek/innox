@@ -1,0 +1,90 @@
+
+
+
+.about__img
+  flex 1
+
+  img
+    height auto
+    max-width 100%
+    display block
+
+.about__box
+  flex 1
+
+  padding-left 25px
+  padding-right 25px
+  display flex
+  flex-direction column
+  justify-content space-between
+
+.about__box__text
+  h2
+    margin 0
+    color hover-color
+    text-transform uppercase
+  p
+    text-align justify
+    font-size 1.3rem
+    color #adacab
+    font-family secondary-font
+
+.about__box__item
+  display flex
+  text-align center
+  text-transform uppercase
+  font-size 1.2rem
+  font-weight bold
+  color #737170
+  span
+    display block
+    height 1px
+    background hover-color
+    width 90%
+    margin-top 30px
+    margin-left 5px
+    margin-right 5px
+
+.about__box__buttons
+  display flex
+
+
+  .button
+    margin 0
+
+  .button--grey
+    margin-right 25px
+
+
+@media (max-width: 1000px)
+  .row--margin
+    margin-top 100px
+    margin-bottom 100px
+
+
+@media (max-width: 768px)
+  .row--margin
+    margin-top 50px
+    margin-bottom 50px
+
+  .about__img
+    flex-basis 100%
+    padding 0 30px 30px 30px
+
+  .about__box
+    flex-basis 100%
+    padding 30px
+
+@media (max-width: 491px)
+  .about__box__item,
+  .about__box__buttons
+    flex-wrap wrap
+    div
+      width 100%
+    .button
+      width 100%
+      margin-top 15px
+    .button--grey
+      margin-right 0
+    span
+      display none

@@ -1,0 +1,23 @@
+{
+  "name": "Quench",
+  "version": "1.0.0",
+  "description": "A Gulp file and project generator.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quench",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "*",
+    "gulp-cache": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-stylus": "*",
+    "gulp": "*"
+  }
+}

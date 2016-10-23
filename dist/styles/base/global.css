@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+  font-family: primary-font;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,106 @@
+.about__img {
+  -ms-flex: 1;
+      flex: 1;
+}
+.about__img img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.about__box {
+  -ms-flex: 1;
+      flex: 1;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.about__box__text h2 {
+  margin: 0;
+  color: hover-color;
+  text-transform: uppercase;
+}
+.about__box__text p {
+  text-align: justify;
+  font-size: 1.3rem;
+  color: #adacab;
+  font-family: secondary-font;
+}
+.about__box__item {
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #737170;
+}
+.about__box__item span {
+  display: block;
+  height: 1px;
+  background: hover-color;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.about__box__buttons {
+  display: -ms-flexbox;
+  display: flex;
+}
+.about__box__buttons .button {
+  margin: 0;
+}
+.about__box__buttons .button--grey {
+  margin-right: 25px;
+}
+@media (max-width: 1000px) {
+  .row--margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .row--margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .about__img {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding: 0 30px 30px 30px;
+  }
+  .about__box {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding: 30px;
+  }
+}
+@media (max-width: 491px) {
+  .about__box__item,
+  .about__box__buttons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about__box__item div,
+  .about__box__buttons div {
+    width: 100%;
+  }
+  .about__box__item .button,
+  .about__box__buttons .button {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .about__box__item .button--grey,
+  .about__box__buttons .button--grey {
+    margin-right: 0;
+  }
+  .about__box__item span,
+  .about__box__buttons span {
+    display: none;
+  }
+}
