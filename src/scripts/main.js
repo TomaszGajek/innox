@@ -45,6 +45,27 @@ $(document).ready(function(){
     }
   });
 
+  $("#owl-service").owlCarousel({
+    items:3,
+    loop:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav: true
+        },
+        600:{
+            items:1,
+            nav: true
+        },
+        1000:{
+            items:1,
+            nav: true
+        }
+    }
+
+  });
+
 
 
 });

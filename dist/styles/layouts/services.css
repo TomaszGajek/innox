@@ -44,6 +44,73 @@
 .services__box__items div img {
   padding: 11px 15px;
 }
+.row--secondary-color {
+  background: secondary-color;
+  margin-top: 70px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.services__img {
+  padding-top: 100px;
+}
+/*second owl carousel */
+#owl-service {
+  padding-top: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 400px;
+}
+#owl-service .active {
+  border: none;
+}
+#owl-service h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+#owl-service p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #e1cdb3;
+  text-align: justify;
+}
+#owl-service a {
+  text-transform: uppercase;
+  display: block;
+  border: 1px solid #fff;
+  width: 130px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 50px 0;
+}
+#owl-service .owl-nav {
+  display: -ms-flexbox;
+  display: flex;
+  color: transparent;
+}
+#owl-service .owl-nav .owl-prev {
+  background: url("images/left_a_w.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 30px;
+  width: 30px;
+}
+#owl-service .owl-nav .owl-next {
+  background: url("images/right_a_w.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 30px;
+  width: 30px;
+}
 @media (max-width: 999px) {
   .services .row--wrap {
     margin: 0 auto;
