@@ -19,8 +19,6 @@
 .row--wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
 }
 .active {
   padding-bottom: 5px;
@@ -31,8 +29,7 @@
   background: #fff;
   padding: 15px 10px;
   width: 150px;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   color: hover-color;
   margin-bottom: 15%;
