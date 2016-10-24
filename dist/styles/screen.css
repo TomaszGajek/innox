@@ -568,3 +568,41 @@ nav {
   text-transform: uppercase;
   border: 1px solid #fff;
 }
+#owl-clients .owl-stage {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#owl-clients .owl-stage .active {
+  border: none;
+}
+#owl-clients .owl-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 130px;
+}
+#owl-clients .owl-dots {
+  display: none;
+}
+#owl-clients .owl-nav {
+  display: -ms-flexbox;
+  display: flex;
+  color: transparent;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-top: 40px;
+}
+#owl-clients .owl-nav .owl-prev {
+  background: url("images/left_a.png");
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  height: 25px;
+}
+#owl-clients .owl-nav .owl-next {
+  background: url("images/right_a.png");
+  background-repeat: no-repeat;
+  height: 25px;
+}
