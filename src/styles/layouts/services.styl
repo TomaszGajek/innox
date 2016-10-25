@@ -47,10 +47,17 @@
 
 
 .services__img
+
   padding-top 100px
+  img
+    display block
+    width 100%
+    height auto
+    margin-bottom -12px
 /*second owl carousel */
 
 #owl-service
+
   padding-top 100px
   display flex
   flex-direction column
@@ -71,6 +78,7 @@
     line-height 1.6
     color #e1cdb3
     text-align justify
+    padding-right 10px
 
   a
     text-transform uppercase
@@ -98,14 +106,44 @@
       height 30px
       width 30px
 
-
-
-
-
-
 @media (max-width: 999px)
   .services
     .row--wrap
       margin 0 auto
       max-width 700px
       justify-content space-around
+
+  .row--secondary-color
+    flex-direction column
+
+  .services__img
+    order 2
+    padding-top 20px
+    padding-left 50px
+    padding-right 50px
+
+  #owl-service
+    margin-left 150px
+    padding-top 30px
+
+@media (max-width: 699px)
+  #owl-service
+    margin-left 90px
+
+@media (max-width: 530px)
+  .services__img
+    padding-top 40px
+  #owl-service
+    margin-left 70px
+    width 300px
+    a
+      margin-top 20px
+      margin-bottom 20px
+
+@media (max-width: 400px)
+  .services__img
+    padding-left 20px
+    padding-right 20px
+  #owl-service
+    margin-left 40px
+    width 250px

@@ -1,0 +1,219 @@
+.container--1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.team-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.team__person {
+  position: relative;
+  width: 254px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  -ms-flex: basis 250px;
+      flex: basis 250px;
+}
+@media (max-width: 584px) {
+  .team__person {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.team__person__meta {
+  background: #5b4d44;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.6s;
+}
+.team__person__meta:hover {
+  opacity: 0.8;
+}
+.team__person__meta__text {
+  padding: 50px 40px;
+  margin-top: 220px;
+}
+.team__person__meta__text h2 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  margin-bottom: 5px;
+}
+.team__person__meta__text span {
+  display: block;
+  height: 2px;
+  width: 42px;
+  background: #fff;
+}
+.team__person__meta__text p {
+  color: #d1baac;
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+.team__join {
+  border: 2px solid #97735e;
+  width: 254px;
+  height: 472px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  -ms-flex: basis 250px;
+      flex: basis 250px;
+}
+@media (max-width: 584px) {
+  .team__join {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.team__join img {
+  display: block;
+  margin: 150px auto 30px;
+}
+.team__join h2 {
+  text-align: center;
+  color: #97735e;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+.team__join span {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+.team__join__button {
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+}
+.team__join__button span {
+  display: block;
+  height: 1px;
+  width: 18px;
+  margin: auto;
+  background: #97735e;
+}
+.team__join__button a {
+  display: block;
+  background: #97735e;
+  color: #fff;
+  padding: 5px 30px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+/*social icons and hover effect */
+.team__person__meta__icons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 70%;
+  margin: 0 auto 30px;
+}
+.team__person__meta__icons a {
+  display: block;
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+}
+.team__person__meta__icons .facebook {
+  background: url("images/fe-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.team__person__meta__icons .facebook:hover {
+  background: url("images/fe-icon-h.png"), #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.team__person__meta__icons .twitter {
+  background: url("images/tw-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.team__person__meta__icons .twitter:hover {
+  background: url("images/tw-icon-h.png"), #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.team__person__meta__icons .linkedin {
+  background: url("images/li-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.team__person__meta__icons .linkedin:hover {
+  background: url("images/li-icon-h.png"), #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.team__person__meta__icons .behance {
+  background: url("images/be-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.team__person__meta__icons .behance:hover {
+  background: url("images/be-icon-h.png"), #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.team__person__meta__icons .dribble {
+  background: url("images/dr-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.team__person__meta__icons .dribble:hover {
+  background: url("images/dr-icon-h.png"), #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.team__person__meta__icons .mail {
+  background: url("images/ma-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.team__person__meta__icons .mail:hover {
+  background: url("images/ma-icon-h.png"), #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
