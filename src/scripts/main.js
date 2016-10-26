@@ -86,7 +86,11 @@ $(document).ready(function(){
 	        }, duration);
 	    }
 	  });
-  }  
+  }
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyC7N6iKUHz8nABNk3RH0_HKQk7Vi1rnxNM'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/pl'>Maps Generator PL</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=96008d28964585a1fe0284ffe37000465a88d11a'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(55.73901442349524,37.70793720703124),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(55.73901442349524,37.70793720703124)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br><br> Moskow<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+
 
 
 });
