@@ -26,8 +26,18 @@ header {
   letter-spacing: 1.6px;
   font-weight: bold;
 }
+.header__text .button {
+  padding: 0;
+  font-weight: bold;
+}
 .header__text .button a {
   color: #9c7660;
+  transition: all 0.5s;
+  display: block;
+  padding: 15px 10px;
+}
+.header__text .button a:hover {
+  color: #fff;
 }
 @media (max-width: 700px) {
   .header__text h1 {
