@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  smoothScroll(500);
+
+  /* works item plugin */
+
   var listItem = $('.works__list__item');
 
       thumb = $('.thumbnail');
@@ -21,6 +25,8 @@ $(document).ready(function(){
     }
 
   });
+
+  /* owl plugin */
 
   $("#owl-clients").owlCarousel({
     items:4,
@@ -66,6 +72,21 @@ $(document).ready(function(){
 
   });
 
+  /* smooth scrool */
+
+  function smoothScroll (duration) {
+	$('a[href^="#"]').on('click', function(event) {
+
+	    var target = $( $(this).attr('href') );
+
+	    if( target.length ) {
+	        event.preventDefault();
+	        $('html, body').animate({
+	            scrollTop: target.offset().top
+	        }, duration);
+	    }
+	  });
+  }  
 
 
 });

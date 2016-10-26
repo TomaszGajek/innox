@@ -1,0 +1,110 @@
+
+.contact__form
+  width 60%
+  display flex
+  flex-direction column
+  margin-bottom 50px
+  h2
+    color #97735e
+    text-transform uppercase
+    font-size 2rem
+    letter-spacing 1.2px
+  p
+    font-family secondary-font
+    color #a0a0a0
+    margin 0 0 40px
+    font-size 1.2rem
+
+  div
+    display flex
+    input
+      flex 1
+    input[type="text"]
+      margin-right 20px
+
+
+  input,
+  textarea
+    padding 10px
+    margin-bottom 20px
+    border 1px solid #97735e
+    outline none
+    &:active
+      outline 1px solid #7c848d
+
+  textarea
+    height 200px
+
+
+.contact__form__button
+  display flex
+  justify-content flex-end
+
+  button
+
+    width 140px
+    text-align center
+    padding 12px
+    text-transform uppercase
+    color white
+    letter-spacing 1px
+    background #97735e
+    border none
+    outline none
+
+    &:hover
+      background #7c848d
+
+.contact__info
+  display flex
+  flex-direction column
+  padding-top 100px
+  padding-left 60px
+
+  h4
+    color #97735e
+    text-transform uppercase
+    font-size 1.4rem
+    margin-bottom 0
+    line-height 2
+  p
+    color #a0a0a0
+    font-size 1.2rem
+    margin 0
+
+.contact__info__box
+  display flex
+  margin-top 20px
+  div
+    h4
+      margin 0
+      line-height 1.4
+    p
+      font-size 1rem
+
+
+.contact__info__box__icon
+  border 1px solid #97735e
+  border-radius 50%
+  height 45px
+  width 45px
+  padding-left 14px
+  padding-top 10px
+  margin-right 30px
+
+@media (max-width:750px)
+  .contact__form,
+  .contact__info
+    width 100%
+
+  .contact__info
+    display flex
+    flex-wrap wrap
+    flex-direction row
+    padding 0
+  .contact__info__text
+    flex-basis 100%
+  .contact__info__box
+    flex-basis 210px
+    margin-top 20px
+    margin-left 5px
