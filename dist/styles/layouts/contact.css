@@ -129,3 +129,23 @@
     margin-left: 5px;
   }
 }
+#map {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.gm-style-iw * {
+  display: block;
+  width: 100%;
+}
+.gm-style-iw h4 {
+  margin: 0;
+  padding: 0;
+}
+.gm-style-iw p {
+  margin: 0;
+  padding: 0;
+}
+.gm-style-iw a {
+  color: #4272db;
+}
