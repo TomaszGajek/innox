@@ -29,19 +29,28 @@
 .contact__form div input[type="text"] {
   margin-right: 20px;
 }
-.contact__form input,
-.contact__form textarea {
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #97735e;
-  outline: none;
-}
-.contact__form input:active,
-.contact__form textarea:active {
-  outline: 1px solid #7c848d;
-}
-.contact__form textarea {
-  height: 200px;
+@media (max-width: 360px) {
+  .contact__form div {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .contact__form div input[type="text"] {
+    margin-right: 0;
+  }
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #97735e;
+    outline: none;
+  }
+  input:active,
+  textarea:active {
+    outline: 1px solid #7c848d;
+  }
+  textarea {
+    height: 200px;
+  }
 }
 .contact__form__button {
   display: -ms-flexbox;
